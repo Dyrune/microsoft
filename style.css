@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 2px;
+}
+
+body {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+
+.gen {
+  width: 320px;
+  height: 200px;
+}
+
+.pagination {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-futures {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 50vh;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.designer {
+  font-size: 28px;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.next-generation {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link a{
+  text-decoration: none;
+  font-size: 18px;
+  flex-direction: row;
+  width: 200px;
+}
+
+.microsoft-design img {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.microsoft-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.bing-talk,
+.bing-multi {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
+  width: 35em;
+  height: 30.5em;
+}
+
+.pause {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.new {
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+}
+
+.learn-button {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(66, 66, 172);
+  border: none;
+  color: white;
+}
+
+.announcing {
+  font-size: 42px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pagination button {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 3px;
+}
+
+.microsoft {
+  width: 130px;
+}
+
+.content-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+  width: 25px;
+  height: 25px;
+}
+
+.header-search,
+.header-cart,
+.header-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.header-left div {
+  padding: 0 15px 0 15px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  width: 60%;
+}
+
+.profile {
+  width: 25px;
+  height: 25px;
+}
+
+.header-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-all img {
+  width: 15px;
+  height: 15px;
+}
+
+.header-right div {
+  padding: 0 15px 0 15px;
+}
+
+.swiper-use {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.bing {
+  width: 100%;
+}
+
+.right,
+.left {
+  width: 30px;
+}
+
+.swiper-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination {
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.content-outlook {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+.for {
+  font-size: 38px;
+  width: 400px;
+}
+
+.downlod-btn {
+  width: 400px;
+  margin-top: 10px;
+}
+
+.download-button {
+  color: white;
+  width: 170px;
+  height: 40px;
+  background-color: rgb(45, 45, 78);
+  border: none;
+}
+
+.connect {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 400px;
+}
+
+.outlook-content {
+  position: absolute;
+  width: 80vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50em;
+}
+
+.content-outlook img {
+  width: 90%;
+  height: 35em;
+}
+
+.content-business {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13em;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.business-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.business1 img {
+  width: 21em;
+}
+
+.topic {
+  font-size: 38px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 10px
+}
+
+.vs {
+  font-size: 26px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ms {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.business1 {
+  height: 20em;
+  width: 350px;
+}
+
+.business1 a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.back {
+  margin-top: 100px;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.followw {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.followw img {
+  width: 40px;
+  height: 40px;
+}
+
+.back button {
+  width: 20vh;
+  height: 5vh;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.content-footer {
+  height: 55vh;
+  background-color: rgb(233, 231, 231);
+  width: 100%;
+}
+
+.footer-macs {
+  display: flex;
+  flex-direction: row;
+}
+
+.microS {
+  display: flex;
+  flex-direction: column;
+  margin: 3em ;
+}
+
+.microS div {
+  font-weight: bolder;
+  font-size: 18px;
+  color: rgb(107, 103, 103);
+}
+
+.microS span {
+  color: grey;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.footer-footer {
+  width: 90%;
+  margin-left: 10vh;
+  justify-content: space-between;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer2 {
+  color: grey;
+}
+
+.footer2 span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: grey;
+}
+
+.choice {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
