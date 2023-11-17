@@ -21,7 +21,7 @@
   }
 
   .j {
-    width: 90%;
+    width: 100%;
   }
 
   .dropdown-content {
@@ -69,23 +69,28 @@
   .text {
     color: #110101;
     font-size: 15px;
+    padding-left: 10px;
     text-align: left;
+    height: 28vh;
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
-    box-shadow: 6px 3px 7px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 7px 0 rgba(0, 0, 0, 0.5);
   }
 
   .noncing {
-    font-size: 32px;
+    font-size: 28px;
+    margin-bottom: 10px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
 
   .new-mic {
     font-size: 16px;
+    margin-bottom: 15px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
@@ -120,11 +125,12 @@
   }
 
   .dot {
-    height: 15px;
-    width: 15px;
+    height: 10px;
+    width: 10px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: white;
     border-radius: 50%;
+    border: 1px solid black;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
@@ -193,7 +199,7 @@
   }
 
   .designer {
-    font-size: 38px;
+    font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     margin-top: 10px;
@@ -202,7 +208,7 @@
 
   .next-generation {
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   }
@@ -222,7 +228,7 @@
   }
 
   .topic {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 20px;
   }
 
@@ -231,25 +237,25 @@
   }
 
   .vs {
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
   .ms {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 0;
   }
 
   .siin {
     margin-top: 15px;
-    margin-bottom: 55px;
+    margin-bottom: 35px;
   }
 
   .siin a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .followw {
@@ -263,7 +269,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     flex-direction: row;
   }
 
@@ -285,6 +291,7 @@
     display: flex;
     margin: 10px;
     color: #969494;
+    margin-bottom: 30px;
     width: 230px;
     flex-direction: column;
   }
@@ -316,9 +323,15 @@
     align-items: center;
   }
 
+  .footer2 span {
+    margin-left: 10px;
+    width: 120px;
+  }
+
   .footer2 {
     font-size: 14px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
     color: #717171;
