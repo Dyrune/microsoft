@@ -3,13 +3,24 @@
   <head>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
+
+
+
+
+
+
     <div class="container">
-      <div class="content-header">
+
+      <div class="content-header" id="desktop">
+        
+        
         <div class="header-left">
           <div class="header-logo">
             <img class="microsoft" src="/RE1Mu3b.png" alt="" />
@@ -20,64 +31,135 @@
           <div class="header-xbox">Xbox</div>
           <div class="header-support">Support</div>
         </div>
+
+
         <div class="header-right">
           <div class="header-all">
-            All Microsoft <img src="/211687_down_arrow_icon.png" alt="" />
+            All-Microsoft <img style="margin: 5px;" class="search" src="/211687_down_arrow_icon.png" alt="" />
           </div>
-          <div class="header-search">
+          <div class="header-all">
             search
             <img
+            style="margin: 10px;"
               class="search"
               src="/2931190_fit_search_zoom_glass_view_icon.png"
               alt=""
             />
           </div>
-          <div class="header-cart">
+          <div class="header-all">
             cart
-            <img src="/icon-cart.svg" alt="" />
+            <img style="margin: 10px;" class="cart" src="/icon-cart.svg" alt="" />
           </div>
-          <div class="header-profile">
+          <div class="header-all">
             sign in
-            <img class="profile" src="/user-profile-4255 (1).svg" alt="" />
+            <img style="margin: 10px;" class="profile" src="/user-profile-4255 (1).svg" alt="" />
           </div>
         </div>
       </div>
-      <div class="content-images">
+
+
+
+
+
+
+      <div class="content-header" id="mobile">
+        
+        
+        <div class="header-left">
+          <img style="margin: 10px;" class="search" src="/2931190_fit_search_zoom_glass_view_icon.png" alt=""/>
+      <div class="dropdown">
+      <div class="dropdown-menu"><img src="/icon-menu.svg" alt=""></div>
+        <div class="dropdown-content">
+          <div class="header-micro">Microsoft 365</div>
+          <div class="header-office">Office</div>
+          <div class="header-windows">Windows</div>
+          <div class="header-xbox">Xbox</div>
+          <div class="header-support">Support</div>
+        </div>
+      </div>
+        </div>
+
+        <div class="header-logo">
+          <img class="microsoft" src="/RE1Mu3b.png" alt="" />
+        </div>
+
+        <div class="header-right">
+          <img style="margin: 10px;" class="cart" src="/icon-cart.svg" alt="" />
+          <img style="margin: 10px;" class="profile" src="/user-profile-4255 (1).svg" alt="" />
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      <div class="content-images" id="desktop-img">
         <div class="swiper-container">
-          <div>
-            <div class="bing-talk">
-              <div class="announcing">
-                Announcing the next wave of AI innovation
-              </div>
-              <div class="new">
-                the new microsoft bing and edge will soon feautere more visual
-                search responses, chat history, and persisitant chat within
-                Edge. we're also adding actions to help people complete task
-              </div>
-              <button class="learn-button">Learn more about it</button>
-            </div>
-            <img
-              class="bing"
-              src="/Highlight-Bing-AI-Open-Preview_VP5-1920x600.avif"
-              alt="Image 1"
-            />
+          <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image: url('image1.jpg');"></div>
+              <div class="swiper-slide" style="background-image: url('image2.jpg');"></div>
+              <div class="swiper-slide" style="background-image: url('image3.jpg');"></div>
           </div>
-          <div>
-            <img
-              class="mulit"
-              style="display: none"
-              src="/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create_VP5-1920x600.avif"
-              alt="Image 2"
-            />
-          </div>
-        </div>
-        <div class="swiper-button">
-          <img src="/icons8-pause.gif" class="pause" alt="" />
-          <img class="left" src="/211689_left_arrow_icon.svg" alt="" />
-          <div class="pagination"><button></button><button></button></div>
-          <img class="right" src="/211607_right_arrow_icon.svg" alt="" />
-        </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Navigation -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
       </div>
+      </div>
+
+
+     
+      
+
+
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="/hp4st97h.png" style="width:100%">
+          <div class="text">
+            <div class="noncing">Announcing  the next wave of AI innovation</div>
+            <div class="new-mic">the new microsoft bing and edge will soon feature more visual search responses, search history, persistent chat within Edge. we're also adding actions to help people complete task</div>
+            <button class="person">Learn more about it</button>
+          </div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="/35qdy5bk.png" style="width:100%">
+          <div class="text">
+            <div class="noncing">Maximise the everyday  with microsoft 365</div>
+            <div class="new-mic"> Get online protection, secure cloud storafe and innovative  apps designed to fit your needs, all in one plan</div>
+            <div>
+              <button class="person">For 1 person</button>
+              <buttonv class="persons"><a href="">For up to 6 people</a></button>
+            </div>
+          </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+        
+        <div class="donth" style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+
+
+
+
+
+
+
       <div class="content-futures">
         <div class="microsoft-design">
           <img src="/gldn-CP-Windows11-GlobalLaunch.jpeg" alt="" />
@@ -91,7 +173,7 @@
           </div>
         </div>
         <div class="microsoft-design">
-          <img src="/gldn-MSFT-CP-Edge.avif" alt="" />
+          <img class="edge" src="/3khx5mgo.png" alt="" />
           <div class="gen">
             <div class="designer">Microsoft Edge</div>
             <div class="next-generation">
@@ -126,19 +208,37 @@
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
       <div class="content-outlook">
-        <div class="outlook-content">
-          <div class="for">Outlook for iOS and Andriod</div>
-          <div class="connect">Connect, Organize. Get things done</div>
+      
+        <img
+        class="j"
+          src="/j1k1ifie.png"
+          alt=""
+        />  <div class="outlook-content">
+          <div class="designer">Outlook for iOS and Andriod</div>
+          <div class="next-generation">Connect, Organize. Get things done</div>
           <div class="downlod-btn">
-            <button class="download-button">download now</button>
+            <button class="person">download now</button>
           </div>
         </div>
-        <img
-          src="/gldn-Hero-MSCOM-Outlook-iOS-Android_VP5-1596x600.webp"
-          alt=""
-        />
       </div>
+
+
+
+
+
+
+
       <div class="content-business"><div class="cont">
         <div class="topic">For bussiness</div>
         <div class="business-content">
@@ -159,7 +259,7 @@
               windos for building web, cloud, desktop, mobile apps, servises,
               and games
             </div>
-            <div><a href="">download visual studio code 2022</a></div>
+            <div class="siin"><a href="">download visual studio code 2022</a></div>
           </div>
 
           <div class="business1">
@@ -169,7 +269,7 @@
               Securely stream your windows experience from the Microsoft cloud
               to any device
             </div>
-            <div>
+            <div class="siin">
               <a href="">get it today</a></div>
           </div>
 
@@ -181,17 +281,24 @@
               devices with a free one-month Microsoft 365 Business Standard
               trial
             </div>
-            <div><a href="">start your free trial</a></div>
+            <div class="siin"><a href="">start your free trial</a></div>
           </div>
         </div>
         <div class="back">
-          <div class="followw">Follow Microsoft <img src="/x.webp" alt=""> <img src="/linkden.avif" alt=""> </div>
+          <div class="followw">Follow Microsoft <img class="linkedin" src="/x.webp" alt=""> <img class="linkedin" src="/icons8-linkedin.svg" alt=""> </div>
           <div><button>back to top</button></div>
         </div></div>
       </div>
+
+
+
+
+
+
+
+
+
       <div class="content-footer">
-      
-      
         <div class="footer-macs">
         <div class="microS">
           <div>Microsoft Store</div> 
@@ -244,8 +351,8 @@
 
 
         <div class="footer-footer">
-        <div class="footer1">  <img src="/icons8-earth-32.png" alt=""> <span>English (Nigeria)</span>
-          <img class="choice" src="/icons8-choice-50.png" alt=""> <span>your profile choice</span>
+        <div class="footer1"> <div>  <img src="/icons8-earth-32.png" alt=""> <span>English (Nigeria)</span></div>
+         <div> <img class="choice" src="/icons8-choice-50.png" alt=""> <span>your profile choice</span></div>
         </div><div class="footer2">
           <span>Content Microsoft</span>
           <span>Privacy</span>
@@ -255,9 +362,48 @@
           <span>Microsoft 2023</span>
         </div>
       </div>
-
       </div>
-    </div>
-    <script></script>
+
+
+
+
+
+
+
+    </div><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+  
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+  
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+  
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+  
+      // Add this script to auto-advance the slides every 3 seconds
+      setInterval(function() {
+        plusSlides(1); // Advance to the next slide
+      }, 5000);
+    </script>
   </body>
 </html>
