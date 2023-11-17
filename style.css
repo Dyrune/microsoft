@@ -33,7 +33,7 @@
   }
 
   .microsoft {
-    width: 130px;
+    width: 120px;
   }
 
   .header-left {
@@ -71,7 +71,6 @@
     font-size: 15px;
     padding-left: 10px;
     text-align: left;
-    height: 28vh;
     padding-right: 10px;
     display: flex;
     flex-direction: column;
